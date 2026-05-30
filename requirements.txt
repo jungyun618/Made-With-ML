@@ -8,7 +8,8 @@ numpy==1.24.3
 numpyencoder==0.3.0
 pandas==2.0.1
 python-dotenv==1.0.0
-ray[air]==2.7.0
+ray[train]==2.7.1 # ray[air]==2.7.0이 구버전.(air가 통합인데, 안씀)
+ray[data]==2.7.1
 scikit-learn==1.2.2
 snorkel==0.9.9
 SQLAlchemy==1.4.48
@@ -46,3 +47,7 @@ typer==0.9.0
 
 # Deployment
 anyscale==0.5.131
+
+#실전 추가
+setuptools==70.0.0
+protobuf==3.20.3
