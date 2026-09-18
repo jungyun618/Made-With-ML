@@ -40,6 +40,7 @@ ValueError: numpy.dtype size changed, may indicate binary incompatibility. Expec
 <img width="448" height="44" alt="image" src="https://github.com/user-attachments/assets/f8e9fafb-54d2-4d98-8918-68e45d7af885" />
 현재 내가 수정한 requirements.txt 파일의 일부이다.
 원래는 아래와 같이 air로 한꺼번에 가져오게 되는데
+
 ```
 ray[air]==2.7.0
 ```
